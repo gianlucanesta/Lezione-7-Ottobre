@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 55%;
+    margin: auto;
+}
+
+.products-list {
+
+}
+
+.row {
+    text-align: center;
+    margin: 40px 0;
+}
+
+img {
+    width: 100%;
+    /*display: block;*/
+}
+
+.product {
+    padding: 5px;
+    width: 32%;
+    display: inline-block;
+    position: relative;
+}
+
+.discount {
+    /*font-size: 22px;*/
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    padding: 2px 3px;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.heart {
+    color: red;
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.product:hover .heart {
+    display: inline-block;
+}
+
+.product:hover {
+    cursor: pointer;
+}
